@@ -1,0 +1,24 @@
+:root {
+    /* --primary-peach: rgb(235, 143, 63); */
+    /* color: #F9C1A0; */
+    /* color: #E5A27A; */
+    --primary-peach: #f79463;
+    --background-color: rgb(253, 248, 244);
+    /* --text-color: ;
+    --peach-light: ;
+    --peach-dark: ;
+    --white:#ffffff;*/
+
+}
+
+body{
+    background-color:var(--background-color);
+}
+
+.card:hover .flip-card{
+transform: rotateY(180deg);
+}
+
+nav{
+    background-color: #f79463;
+}
