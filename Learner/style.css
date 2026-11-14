@@ -4,6 +4,7 @@
     /* color: #E5A27A; */
     --primary-peach: #f79463;
     --background-color: rgb(253, 248, 244);
+    --light-brown: rgb(72, 62, 50);
     /* --text-color: ;
     --peach-light: ;
     --peach-dark: ;
@@ -12,6 +13,7 @@
 }
 
 body{
+    margin:0%;
     background-color:var(--background-color);
 }
 
@@ -19,6 +21,14 @@ body{
 transform: rotateY(180deg);
 }
 
-nav{
+.card-bg,.pop-up,button:hover,nav{
     background-color: #f79463;
+}
+
+.card-back-bg,.pop-text{
+    background-color: var(--light-brown);
+}
+
+.green:hover{
+    background-color: green;
 }
